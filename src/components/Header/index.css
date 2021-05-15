@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+* {
+  font-family: Roboto;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.link {
+  text-decoration: none;
+  color: #12022f;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.logo-text {
+  color: #6d396b;
+}
+.container {
+  min-width: 95vw;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-image {
+  width: 200px;
+}
+.heading {
+  color: #551e53;
+  font-size: 50px;
+}
